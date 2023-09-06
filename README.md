@@ -2,7 +2,7 @@
    <h1 style="font-size:larger;" > Expense Tracker </h1>
 </div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 style="font-size:larger;" >Short Description 📋</h1>
 
 Currently, two official plugins are available:
 
