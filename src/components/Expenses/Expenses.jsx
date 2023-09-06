@@ -19,6 +19,11 @@ export default function Expense({ items }) {
         amount={items[2].amount}
         date={items[2].date}
       />
+      <ExpenseItem
+        title={items[3].title}
+        amount={items[3].amount}
+        date={items[3].date}
+      />
     </div>
   );
 }
