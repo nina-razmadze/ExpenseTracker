@@ -9,5 +9,19 @@ Currently, two official plugins are available:
 
 <h1 style="font-size:larger;">Key Features ✨</h1>
 
+Expense Logging: Easily record your daily expenses with a few clicks. Categorize your expenses to keep things organized.
+
+Budget Management: Set monthly or weekly budgets to stay on top of your spending goals. Expense Tracker will provide alerts when you approach your budget limits.
+
+Expense Categories: Customize expense categories to suit your needs. Create, edit, or delete categories as required.
+
+Reports and Insights: Generate detailed reports and visual charts to gain insights into your spending patterns over time. 
+
+Data Security: Rest assured that your financial data is secure. Expense Tracker employs robust security measures to protect your information.
+
+Accessibility: The application is designed to be accessible to all users, ensuring that everyone can manage their expenses with ease.
+
+User-Friendly Interface: The clean and intuitive user interface makes it easy for users of all tech levels to navigate and utilize the application. write this for redme file more complex 
+
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
