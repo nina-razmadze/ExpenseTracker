@@ -10,5 +10,11 @@ export default function ExpenseData({ date }) {
   });
   const year = date.getFullYear();
 
-  return <div></div>;
+  return (
+    <div>
+      <div>{month}</div>
+      <div>{year}</div>
+      <div>{day}</div>
+    </div>
+  );
 }
