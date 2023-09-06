@@ -1,4 +1,4 @@
-import "./ExpenesesItem.css";
+import "./ExpenseItem.css";
 import ExpenseData from "../ExpenseData/ExpenseData";
 
 export default function ExpenseItem({ date, title, amount }) {
