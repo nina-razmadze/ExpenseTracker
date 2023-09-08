@@ -17,7 +17,7 @@ Expense Categories: Customize expense categories to suit your needs. Create, edi
 
 Reports and Insights: Generate detailed reports and visual charts to gain insights into your spending patterns over time. 
 
-Data Security: Rest assured that your financial data is secure. Expense Tracker employs robust security measures to protect your information
+Data Security: Rest assured that your financial data is secure. Expense Tracker employs robust security measures to protect your information.
 
 Accessibility: The application is designed to be accessible to all users, ensuring that everyone can manage their expenses with ease.
 
