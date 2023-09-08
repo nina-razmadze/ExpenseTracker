@@ -21,5 +21,5 @@ Data Security: Rest assured that your financial data is secure. Expense Tracker 
 
 Accessibility: The application is designed to be accessible to all users, ensuring that everyone can manage their expenses with ease.
 
-User-Friendly Interface: The clean and intuitive user interface makes it easy for users of all tech levels to navigate and utilize the application
+User-Friendly Interface: The clean and intuitive user interface makes it easy for users of all tech levels to navigate and utilize the application.
 
