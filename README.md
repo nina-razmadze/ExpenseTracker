@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 Expense Logging: Easily record your daily expenses with a few clicks. Categorize your expenses to keep things organized.
 
-Budget Management: Set monthly or weekly budgets to stay on top of your spending goals. Expense Tracker will provide alerts when you approach your budget limits.
+Budget Management: Set monthly or weekly budgets to stay on top of your spending goals. Expense Tracker will provide alerts when you approach your budget limits
 
 Expense Categories: Customize expense categories to suit your needs. Create, edit, or delete categories as required.
 
