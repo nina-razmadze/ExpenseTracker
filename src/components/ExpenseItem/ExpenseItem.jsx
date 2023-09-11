@@ -16,7 +16,7 @@ export default function ExpenseItem({ date, title, amount }) {
       <ExpenseData date={date} />
       <div className="expense-item__description">
         {/* <h2>{title}</h2> */}
-        <input placeholder={title} onChange={changeInput} />
+        <div>{title}</div>
         <div className="expense-item__price">${amount}</div>
       </div>
       <button>Change Item</button>

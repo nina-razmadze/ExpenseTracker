@@ -1,28 +1,34 @@
 import React from "react";
 import "./ExpenseForm.css";
+import { useState } from "react";
 
 export default function ExpenseForm() {
+  const [inputValue, setInputValue] = useState();
+
+  const titleChangeHandler = (event) => {
+    setInputValue(event.target.value);
+  };
   return (
     <form>
-      <div className="new-expense_controls">
-        <div className="new-expense_control">
+      <div className="new-expense__controls">
+        <div className="new-expense__control">
           <label>Title</label>
-          <input type="text" />
+          <input type="text" onChange={titleChangeHandler} />
         </div>
 
-        <div className="new-expense_control">
+        <div className="new-expense__control">
           <label>Amount</label>
           <input type="number" min="0.01" step="0.01" />
         </div>
 
-        <div className="new-expense_control">
+        <div className="new-expense__control">
           <label>Date</label>
           <input type="date" min="2019-01-01" max="2024-12-31" />
         </div>
       </div>
 
-      <div className="new-expense_actions">
-        <button type="submit"> Add Expense</button>
+      <div className="new-expense__actions">
+        <button type="submit">Add Expense</button>
       </div>
     </form>
   );
