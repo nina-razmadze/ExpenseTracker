@@ -31,7 +31,7 @@ function App() {
   ];
   return (
     <>
-      <NewExpense />
+      <NewExpense onSaveExpenseData={saveExpenseDatahandler} />
       <Expenses items={expenses} />
     </>
   );
