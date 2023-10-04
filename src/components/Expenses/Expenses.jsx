@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 
-import Card from "../Card/Card";
-import ExpenseItem from "../ExpenseItem/ExpenseItem";
-import ExpensesFilter from "../ExpenseFilter/ExpenseFilter";
-import ExpensesList from "../ExpensesList/ExpensesList";
+import Card from "../NewExpense/Card/Card";
+import ExpensesFilter from "../NewExpense/ExpenseFilter/ExpenseFilter";
+import ExpensesList from "../NewExpense/ExpensesList/ExpensesList";
 import "./Expenses.css";
 
 export default function Expense({ items }) {
