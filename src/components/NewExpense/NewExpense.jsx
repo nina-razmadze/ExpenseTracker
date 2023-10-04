@@ -9,7 +9,6 @@ export default function NewExpense({ addOnExpense }) {
       id: Math.random().toString(),
     };
     addOnExpense(expenseData);
-    console.log(expenseData);
   };
   return (
     <div className="new-expense">

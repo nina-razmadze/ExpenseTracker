@@ -25,12 +25,12 @@ export default function ExpenseForm({ onSaveExpenseData }) {
       date: new Date(enteredDate),
       amount: enteredAmount,
     };
-
     onSaveExpenseData(expenseData);
     setEnteredAmount("");
     setEnteredDate("");
     setEnteredTitle("");
   };
+
   return (
     <>
       <button onClick={() => setAddExpense(!addExpense)}>
