@@ -2,7 +2,7 @@ import React from "react";
 import ChartBar from "./ChartBar/ChartBar";
 import "./Chart.css";
 
-export default function Chart() {
+export default function Chart({ dataPoints }) {
   return (
     <div className="chart">
       {dataPoints.map((dataPoint) => (

@@ -32,7 +32,6 @@ export default function ExpenseForm({ onSaveExpenseData }) {
     setEnteredTitle("");
   };
   return (
-    // <>
     <>
       <button onClick={() => setAddExpense(!addExpense)}>
         Add New Expense
@@ -78,39 +77,3 @@ export default function ExpenseForm({ onSaveExpenseData }) {
     </>
   );
 }
-
-// export default function ExpenseForm({ onSaveExpenseData }) {
-//   // const [enteredTitle, setEnteredTitle] = useState();
-//   // const [enteredAmount, setEnteredAmount] = useState();
-//   // const [enteredDate, setEnteredDate] = useState();
-//   // const [addExpense, setAddExpense] = useState(false);
-
-//   // const titleChangeHandler = (event) => {
-//   //   setEnteredTitle(event.target.value);
-//   // };
-//   // const amountChangeHendler = (event) => {
-//   //   setEnteredAmount(event.target.value);
-//   // };
-//   // const dateChangeHendler = (event) => {
-//   //   setEnteredDate(event.target.value);
-//   // };
-
-//   // const submitHandler = (event) => {
-//   //   event.preventDefault();
-//   //   const expenseData = {
-//   //     title: enteredTitle,
-//   //     date: new Date(enteredDate),
-//   //     amount: enteredAmount,
-//   //   };
-//   //   console.log(expenseData);
-//   //   onSaveExpenseData(expenseData);
-//   //   setEnteredAmount("");
-//   //   setEnteredDate("");
-//   //   setEnteredTitle("");
-//   // };
-
-//
-// }
-// // </>
-// // );
-// // }
