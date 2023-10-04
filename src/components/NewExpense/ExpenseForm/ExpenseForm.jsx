@@ -25,7 +25,7 @@ export default function ExpenseForm({ onSaveExpenseData }) {
       date: new Date(enteredDate),
       amount: enteredAmount,
     };
-    console.log(expenseData);
+
     onSaveExpenseData(expenseData);
     setEnteredAmount("");
     setEnteredDate("");

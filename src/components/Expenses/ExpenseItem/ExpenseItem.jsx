@@ -8,9 +8,7 @@ export default function ExpenseItem({ date, title, amount }) {
     <li>
       <Card className="expense-item">
         <ExpenseData date={date} />
-        <div className="expense-item__description">
-          <div>{title}</div>
-        </div>
+        <h2 className="expense-item__description">{title}</h2>
         <div className="expense-item__price">${amount}</div>
       </Card>
     </li>
