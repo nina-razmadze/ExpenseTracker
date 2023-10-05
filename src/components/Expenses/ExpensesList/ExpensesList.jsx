@@ -1,7 +1,11 @@
 import "./ExpensesList.css";
 import ExpenseItem from "../ExpenseItem/ExpenseItem";
 
-export default function ExpensesList({ items }) {
+export default function ExpensesList({ items, setExpenses }) {
+  const handleDelete = (id) => {
+    let filtered = items.filter((item) => item.id !== id);
+    setExpenses(filtered);
+  };
   return (
     <ul className="expenses-list">
       {items.length === 0 ? (
@@ -10,6 +14,8 @@ export default function ExpensesList({ items }) {
         items.map((item) => {
           return (
             <ExpenseItem
+              handleDelete={handleDelete}
+              item={item}
               key={item.id}
               title={item.title}
               amount={item.amount}

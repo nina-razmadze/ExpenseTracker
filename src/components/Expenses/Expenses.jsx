@@ -6,7 +6,7 @@ import ExpensesList from "./ExpensesList/ExpensesList";
 import ExpenseChart from "./ExpenseChart/ExpenseChart";
 import "./Expenses.css";
 
-export default function Expense({ items }) {
+export default function Expense({ items, setExpenses }) {
   const [currentYear, setCurrentYear] = useState();
   const [filteredData, setFilteredData] = useState([]);
 
@@ -22,7 +22,7 @@ export default function Expense({ items }) {
     <Card className="expenses">
       <ExpensesFilter setCurrentYear={setCurrentYear} />
       <ExpenseChart items={filteredData} expenses={filteredData} />
-      <ExpensesList items={filteredData} />
+      <ExpensesList items={filteredData} setExpenses={setExpenses} />
     </Card>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Chart from "../../Chart/Chart";
 import "./ExpenseChart.css";
-import ExpensesTable from "../../ExpensesTable/ExpensesTable";
+import ExpensesTable from "../ExpensesTable/ExpensesTable";
 
 export default function ExpenseChart(props) {
   const chartDataPoints = [

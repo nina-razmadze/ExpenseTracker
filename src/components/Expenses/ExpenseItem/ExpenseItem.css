@@ -17,7 +17,9 @@
   flex: 1;
   font-weight: bold;
 }
-
+.expense-item__delete {
+  margin: 10px;
+}
 .expense-item h2 {
   color: #3a3a3a;
   font-size: 1rem;

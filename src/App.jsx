@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <NewExpense addOnExpense={addExpenxseHandler} />
-      <Expenses items={expenses} />
+      <Expenses items={expenses} setExpenses={setExpenses} />
     </>
   );
 }
