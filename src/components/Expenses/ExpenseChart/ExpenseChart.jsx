@@ -1,5 +1,6 @@
 import React from "react";
 import Chart from "../../Chart/Chart";
+import "./ExpenseChart.css";
 
 export default function ExpenseChart(props) {
   const chartDataPoints = [
@@ -22,6 +23,7 @@ export default function ExpenseChart(props) {
   }
   return (
     <div>
+      <div className="expenses_table"></div>
       <Chart dataPoints={chartDataPoints} />
     </div>
   );
