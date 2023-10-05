@@ -2,7 +2,6 @@ import "./ExpensesList.css";
 import ExpenseItem from "../ExpenseItem/ExpenseItem";
 
 export default function ExpensesList({ items }) {
-  let id = Date.now() + "-" + Math.random().toString(36);
   return (
     <ul className="expenses-list">
       {items.length === 0 ? (

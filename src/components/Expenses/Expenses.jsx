@@ -18,11 +18,10 @@ export default function Expense({ items }) {
 
     setFilteredData(filteredItems);
   }, [currentYear, items]);
-
   return (
     <Card className="expenses">
       <ExpensesFilter setCurrentYear={setCurrentYear} />
-      <ExpenseChart expenses={filteredData} />
+      <ExpenseChart items={filteredData} expenses={filteredData} />
       <ExpensesList items={filteredData} />
     </Card>
   );
