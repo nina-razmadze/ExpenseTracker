@@ -30,8 +30,10 @@ export default function ExpensesTable({ items }) {
     setTimeout(() => {
       let percent = limit * 0.1;
       console.log(percent);
-      if ((savedMoney !== percent && savedMoney) == percent) {
+      if (savedMoney !== limit && savedMoney == percent) {
         alert(`You have ${percent}$ left`);
+      } else if (spend > limit) {
+        alert(`You have exceeded the annual spending limit`);
       }
     }, 1000);
   }, [savedMoney]);
@@ -41,7 +43,7 @@ export default function ExpensesTable({ items }) {
       <form onSubmit={submitHandler}>
         <div className="grid-container">
           <div className="grid-item ">In Hand</div>
-          <div className="grid-item ">Spendings</div>
+          <div className="grid-item ">Annual Spendings</div>
           <div className="grid-item ">Saved</div>
           <div className="grid-item "></div>
 
