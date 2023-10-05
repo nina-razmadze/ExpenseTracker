@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ExpensesTable.css";
 
 export default function ExpensesTable({ items }) {
@@ -12,6 +12,9 @@ export default function ExpensesTable({ items }) {
   const handleOnChange = (e) => {
     setLimit(e.target.value);
 
+    // if (savedMoney === percent) {
+    //   alert("only have");
+    // }
     +limit;
   };
 
@@ -21,14 +24,18 @@ export default function ExpensesTable({ items }) {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    let percent = 0.1 * savedMoney;
-    if (savedMoney == percent) {
-      alert("only have");
-    }
     setSavedMoney(Math.round(limit - spend));
-
-    console.log(savedMoney);
   };
+  useEffect(() => {
+    setTimeout(() => {
+      let percent = limit * 0.1;
+      console.log(percent);
+      if ((savedMoney !== percent && savedMoney) == percent) {
+        alert(`You have ${percent}$ left`);
+      }
+    }, 1000);
+  }, [savedMoney]);
+
   return (
     <div className="expenses_table">
       <form onSubmit={submitHandler}>
