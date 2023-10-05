@@ -3,7 +3,7 @@ import "./NewExpense.css";
 import ExpenseForm from "./ExpenseForm/ExpenseForm";
 
 export default function NewExpense({ addOnExpense }) {
-  const saveExpenseDatahandler = (enteredExpenseData, addExpenxseHandler) => {
+  const saveExpenseDatahandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
       id: Math.random().toString(),

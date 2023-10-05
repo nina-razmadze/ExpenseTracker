@@ -15,6 +15,7 @@ export default function Expense({ items }) {
       const year = item.date.getFullYear();
       return year === Number(currentYear);
     });
+
     setFilteredData(filteredItems);
   }, [currentYear, items]);
 
