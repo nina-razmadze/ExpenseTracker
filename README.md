@@ -8,7 +8,7 @@ Expense Tracker is a simple and user-friendly web application that helps you kee
 Currently, two official plugins are available:
 
 <h1 style="font-size:larger;">Demo</h1>
-
+<a href="https://lnkd.in/dpJ5SsPG"> 🖥 Live Demo</a>
 
 
 <h1 style="font-size:larger;">Key Features ✨</h1>
