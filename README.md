@@ -7,6 +7,10 @@
 Expense Tracker is a simple and user-friendly web application that helps you keep track of your expenses and manage your finances more effectively. Whether you're managing personal finances or tracking expenses for your business, Expense Tracker provides an intuitive platform to monitor your spending habits and stay within your budget.
 Currently, two official plugins are available:
 
+<h1 style="font-size:larger;">Demo</h1>
+
+
+
 <h1 style="font-size:larger;">Key Features ✨</h1>
 
 Expense Logging: Easily record your daily expenses with a few clicks. Categorize your expenses to keep things organized.
@@ -22,4 +26,6 @@ Data Security: Rest assured that your financial data is secure. Expense Tracker 
 Accessibility: The application is designed to be accessible to all users, ensuring that everyone can manage their expenses with ease.
 
 User-Friendly Interface: The clean and intuitive user interface makes it easy for users of all tech levels to navigate and utilize the application.
+
+
 
